@@ -105,7 +105,7 @@ html {
 
 .a-enter-vr {
   background: rgba(55, 55, 60, 0);
-  display: none;
+  /* display: none; */
 }
 .a-enter-vr .a-enter-vr-button {
   background: rgba(55, 55, 60, 0);
@@ -114,13 +114,15 @@ html {
   background-size: 90%;
   background-position: center;
   transform: scale(1);
-  display: none;
+  /* display: none; */
 }
 .a-enter-vr .a-enter-vr-button:hover {
   transform: scale(1.1);
+  background-image: url("./Images/PNG/VR-icon.png");
 }
 .a-enter-vr:hover {
   background: rgba(55, 55, 60, 0);
+  background-image: url("./Images/PNG/VR-icon.png");
 }
 
 .link_to_archviz {
@@ -162,6 +164,7 @@ html {
   }
   .a-enter-vr .a-enter-vr-button {
     display: flex;
+    background-image: url("./Images/PNG/VR-icon.png");
   }
   .the_gallery_container {
     position: absolute;
@@ -193,4 +196,4 @@ html {
     right: none;
     left: 1em;
   }
-}/*# sourceMappingURL=Style.css.map */
+} /*# sourceMappingURL=Style.css.map */
