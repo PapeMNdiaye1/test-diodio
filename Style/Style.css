@@ -110,11 +110,13 @@ html {
 .a-enter-vr .a-enter-vr-button {
   background: rgba(55, 55, 60, 0);
   border-radius: 0%;
-  background-image: url("./Images/PNG/VR-icon.png");
   background-size: 90%;
   background-position: center;
   transform: scale(1);
+  background-image: url("./Images/PNG/VR-icon.png");
   /* display: none; */
+  background-repeat: no-repeat;
+  border-radius: 1em;
 }
 .a-enter-vr .a-enter-vr-button:hover {
   transform: scale(1.1);
@@ -160,10 +162,10 @@ html {
   }
   .a-enter-vr {
     background-image: url("./Images/PNG/VR-icon.png");
-    display: flex;
+    display: none;
   }
   .a-enter-vr .a-enter-vr-button {
-    display: flex;
+    display: none;
     background-image: url("./Images/PNG/VR-icon.png");
   }
   .the_gallery_container {
